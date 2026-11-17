@@ -1,0 +1,41 @@
+{
+  "name": "South Africa Vlog",
+  "version": "v1",
+  "fps": 25,
+  "width": 1920,
+  "height": 1080,
+  "handles": 12,
+  "utc_offset": "+02:00",
+  "camera_utc_offset": "+08:00",
+  "day1": "2026-02-16",
+  "year": "2026",
+  "lang2": "zh",
+  "lut": "Graphics/look.cube",
+  "resolve_lut": "C:/ProgramData/Blackmagic Design/DaVinci Resolve/Support/LUT/MCP/look.cube",
+  "workers": 6,
+  "sources": [
+    {"path": "iCloud Photos", "photos": "P", "videos": "V"},
+    {"path": "Clips", "videos": "S", "ids": "suffix", "sidecars": "E:/Camera cards/Trip"},
+    {"path": "Photos", "photos": "A", "ids": "prefix"}
+  ],
+  "vehicle": "truck",
+  "badge_label": "Spotted!",
+  "route": {
+    "map": "Graphics/route-map.png",
+    "pins": [[207, 902], [568, 660], [832, 510], [921, 280], [1508, 320], [1501, 575], [1252, 722]],
+    "legs": [
+      [[207, 902], [330, 780], [430, 710], [568, 660]],
+      [[568, 660], [700, 560], [832, 510]],
+      [[832, 510], [880, 400], [890, 330], [921, 280]],
+      [[921, 280], [960, 222], [1080, 210], [1230, 255], [1400, 262], [1508, 320]],
+      [[1508, 320], [1525, 400], [1522, 470], [1501, 575]],
+      [[1501, 575], [1440, 625], [1330, 660], [1252, 722]],
+      [[1252, 722], [1100, 738], [900, 790], [650, 855], [400, 850], [250, 868]]
+    ],
+    "km": [241.6, 109.2, 88.4, 189.2, 95.2, 71.7, 406.7],
+    "panel": [50, 560]
+  },
+  "flight": {"from": ["HONG KONG", "香港"], "to": ["JOHANNESBURG", "約翰尼斯堡"], "label": "10,700 km  ·  13 h", "sprite": "plane"},
+  "parade": [["rhino", 118], ["elephant", 150], ["giraffe", 200], ["zebra", 140], ["buffalo", 132], ["hippo", 112],
+             ["hyena", 120], ["ostrich", 160], ["impala", 150], ["baboon", 126], ["hornbill", 120], ["roller", 118]]
+}
